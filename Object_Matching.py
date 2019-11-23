@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-# Loading original template image
+# Loading original image
 original_image_template = cv2.imread('images/waldo.jpg')
 cv2.imshow("Original Template", original_image_template)
 cv2.waitKey(0)
